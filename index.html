@@ -19,7 +19,16 @@
 <body>
   <header class="site-header">
     <div class="container nav-wrap">
-      <a class="brand" href="/" aria-label="PremiumIPTV home">PremiumIPTV</a>
+      <a class="brand" href="/" aria-label="BestPremiumIPTV home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" role="img" aria-hidden="true">
+            <rect x="4" y="4" width="40" height="40" rx="12"></rect>
+            <path d="M20 16.5L31 24L20 31.5V16.5Z"></path>
+            <circle cx="34.5" cy="14.5" r="3.5"></circle>
+          </svg>
+        </span>
+        <span class="brand-text">BestPremiumIPTV</span>
+      </a>
       <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
         <span></span>
         <span></span>
@@ -50,37 +59,60 @@
             <a href="contact.html" class="btn btn-secondary">Get Started</a>
           </div>
         </div>
-        <div class="hero-panel" aria-label="PremiumIPTV dashboard preview">
+        <div class="hero-panel" aria-label="BestPremiumIPTV dashboard preview">
           <div class="window-bar">
             <span></span>
             <span></span>
             <span></span>
           </div>
-          <div class="screen-card">
-            <div class="screen-header">
+          <div class="stream-dashboard">
+            <div class="dashboard-top">
+              <span class="mini-pill">Live TV</span>
+              <span class="mini-pill accent">HD / 4K</span>
+            </div>
+
+            <div class="featured-show">
+              <div class="featured-copy">
+                <span class="show-tag">Now playing</span>
+                <h3>Night Drive</h3>
+                <p>Drama • Thriller • 4K</p>
+              </div>
+              <div class="play-button" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                  <path d="M8 5.5V18.5L18 12L8 5.5Z"></path>
+                </svg>
+              </div>
+            </div>
+
+            <div class="category-row">
               <span>Live</span>
-              <span>HD</span>
+              <span>Movies</span>
+              <span>Series</span>
+              <span>VOD</span>
             </div>
-            <div class="screen-content">
-              <div class="show show-main">
-                <span class="show-tag">Featured</span>
-                <strong>Premium Weekend</strong>
+
+            <div class="thumbnail-grid">
+              <div class="thumb-card thumb-one">
+                <span>Action</span>
               </div>
-              <div class="show-row">
-                <div class="mini-show"></div>
-                <div class="mini-show"></div>
-                <div class="mini-show"></div>
+              <div class="thumb-card thumb-two">
+                <span>Drama</span>
+              </div>
+              <div class="thumb-card thumb-three">
+                <span>Sports</span>
               </div>
             </div>
-            <div class="stat-row">
-              <div>
-                <small>Compatibility</small>
-                <strong>Multi-device</strong>
+
+            <div class="epg">
+              <div class="epg-header">
+                <span>TV Guide</span>
+                <span>Tonight</span>
               </div>
-              <div>
-                <small>Plans</small>
-                <strong>Flexible</strong>
-              </div>
+              <ul>
+                <li><span>19:00</span><strong>World News</strong></li>
+                <li><span>20:30</span><strong>City Lights</strong></li>
+                <li><span>22:00</span><strong>Premier Match</strong></li>
+              </ul>
             </div>
           </div>
         </div>
@@ -324,7 +356,16 @@
   <footer class="site-footer">
     <div class="container footer-grid">
       <div>
-        <a href="/" class="brand footer-brand">PremiumIPTV</a>
+        <a href="/" class="brand footer-brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 48 48" role="img" aria-hidden="true">
+              <rect x="4" y="4" width="40" height="40" rx="12"></rect>
+              <path d="M20 16.5L31 24L20 31.5V16.5Z"></path>
+              <circle cx="34.5" cy="14.5" r="3.5"></circle>
+            </svg>
+          </span>
+          <span class="brand-text">BestPremiumIPTV</span>
+        </a>
       </div>
       <div>
         <h3>Explore</h3>
@@ -348,7 +389,7 @@
       </div>
     </div>
     <div class="container footer-bottom">
-      <p>© <span id="year"></span> PremiumIPTV. All rights reserved.</p>
+      <p>© <span id="year"></span> BestPremiumIPTV. All rights reserved.</p>
     </div>
   </footer>
 
