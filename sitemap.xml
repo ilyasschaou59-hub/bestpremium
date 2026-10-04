@@ -1,33 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
-    <loc>https://YOUR-DOMAIN/</loc>
+    <loc>https://www.bestpremiumiptv.com/</loc>
   </url>
+
   <url>
-    <loc>https://YOUR-DOMAIN/pricing.html</loc>
+    <loc>https://www.bestpremiumiptv.com/pricing.html</loc>
   </url>
+
   <url>
-    <loc>https://YOUR-DOMAIN/features.html</loc>
+    <loc>https://www.bestpremiumiptv.com/features.html</loc>
   </url>
+
   <url>
-    <loc>https://YOUR-DOMAIN/compatibility.html</loc>
+    <loc>https://www.bestpremiumiptv.com/compatibility.html</loc>
   </url>
+
   <url>
-    <loc>https://YOUR-DOMAIN/faq.html</loc>
+    <loc>https://www.bestpremiumiptv.com/faq.html</loc>
   </url>
+
   <url>
-    <loc>https://YOUR-DOMAIN/contact.html</loc>
+    <loc>https://www.bestpremiumiptv.com/contact.html</loc>
   </url>
+
   <url>
-    <loc>https://YOUR-DOMAIN/blog/</loc>
+    <loc>https://www.bestpremiumiptv.com/blog/</loc>
   </url>
+
   <url>
-    <loc>https://YOUR-DOMAIN/privacy-policy.html</loc>
+    <loc>https://www.bestpremiumiptv.com/privacy-policy.html</loc>
   </url>
+
   <url>
-    <loc>https://YOUR-DOMAIN/terms.html</loc>
+    <loc>https://www.bestpremiumiptv.com/terms.html</loc>
   </url>
+
   <url>
-    <loc>https://YOUR-DOMAIN/disclaimer.html</loc>
+    <loc>https://www.bestpremiumiptv.com/disclaimer.html</loc>
   </url>
+
 </urlset>
